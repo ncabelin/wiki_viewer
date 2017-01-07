@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+		<style src="./css/style.css"></style>
+</head>
+<body>
+  <div class="container-fluid text-center">
+  <div id="header">
+    <h1>Wikipedia Viewer</h1>
+    <form>
+      <div class="form-group">
+        <input name="title" placeholder="Keyword to search" type="text" id="searchWord">
+        <input type="button" id="search" value="Go" class="btn btn-default" />
+      </div>
+      <p>Click for
+					<button class="btn btn-default"><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article</a></button></p>
+    </form>
+  </div>
+		<hr>
+    <div id="results"></div>
+</div><!-- end container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
