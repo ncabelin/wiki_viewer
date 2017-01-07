@@ -7,7 +7,7 @@ It demonstrates the use of the Wikipedia API using AJAX calls.
 
 The app is live at http://cabelin.com/wiki_viewer
 
-![wiki_viewer](https://cloud.githubusercontent.com/assets/15892944/14010784/9bf0d27c-f155-11e5-8455-066293c4f734.jpg)
+![wiki_viewer](http://cabelin.com/wiki_viewer/images/screenshot.jpg)
 
 ## Features
 
