@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("#search").click(function() {
+  $("#search").submit(function(e) {
+    e.preventDefault();
     $("#results").empty();
     var s = document.getElementById("searchWord").value;
     var u = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + s + "&limit=20&namespace=0&format=jsonfm";

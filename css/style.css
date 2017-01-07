@@ -1,38 +1,37 @@
-.container-fluid {
-padding: 0px;
-margin: 0px;
-border: 0px;
-}
-
 .positioned {
-text-align: left;
+  text-align: left;
 }
 
 body {
-font-family: 'Lato', sans-serif;
-background-color: #60A075;
+  font-family: 'Lato', sans-serif;
+  background-color: #60A075;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006e2e+0,009b50+100 */
+  background: #006e2e; /* Old browsers */
+  height: 100%;
+}
+
+hr {
+  border: 1px solid white;
+  margin-bottom: 5px;
 }
 
 h1 {
-font-family: 'Amatic SC', cursive;
-letter-spacing: 3px;
-font-size: 40px;
-margin-top: 0px;
-margin-bottom: 0px;
-color:white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-bottom: 0px;
+  color:white;
+}
+
+.sub_header {
+  color: white;
+  margin-bottom: 0;
 }
 
 #header {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006e2e+0,009b50+100 */
-background: #006e2e; /* Old browsers */
-background: -moz-linear-gradient(top,  #006e2e 0%, #009b50 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #006e2e 0%,#009b50 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #006e2e 0%,#009b50 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#009b50',GradientType=0 ); /* IE6-9 */
-
-padding: 20px;
+  padding: 20px;
 }
 
 #results {
-margin: 40px;
+  margin: 20px;
 }
